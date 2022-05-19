@@ -2,13 +2,47 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#header {
+#header, #container-receita {
     padding: 10px;
     margin: 10px;
 }
 
 #header-logo {
     padding: 10px 20px;
+}
+
+#container-receita {
+    display: grid;
+    height: 33vh;
+    grid-template-rows: 1fr 1fr;
+}
+
+#receita {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#receita-img {
+    width: 15vw;
+    padding: 10px 25px;
+}
+
+#receita-title {
+    width: 85vw;
+    padding-left: 15vw;
+}
+
+h2 {
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+#redator {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    padding: 20px 30px;
 }
