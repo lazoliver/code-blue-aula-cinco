@@ -31,7 +31,7 @@
     padding-left: 15vw;
 }
 
-h2 {
+#receita-name {
     font-size: 45px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -59,9 +59,20 @@ h2 {
 }
 
 #ingredientes-lista > li, #preparo-lista > li {
-    padding-bottom: 5px;
+    padding-bottom: 2px;
 }
 
 #preparo-lista {
     list-style-position: inside;
+}
+
+#direitos {
+    display: flex;
+    justify-content: center;
+    padding: 5px 20px;
+}
+
+#direitos > a, a:hover, a:active, a:link, a:visited {
+    text-decoration: none;
+    color: rgb(255, 51, 0);
 }
