@@ -5,8 +5,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
-#header, #header-logo, #receita, #receita-img {
+#header-logo, #receita, #receita-img {
     padding: 10px 20px;
 }
 
@@ -39,8 +38,10 @@
 
 #redator {
     display: flex;
+    height: 10vh;
     justify-content: center;
     padding: 10px 20px;
+    font-size: 13px;
 }
 
 #instrucoes {
@@ -50,7 +51,7 @@
 }
 
 #ingredientes, #ingredientes-lista, #preparo, #preparo-lista {
-    padding: 10px;
+    padding: 7px;
 }
 
 #ingredientes-lista {
@@ -60,6 +61,7 @@
 
 #ingredientes-lista > li, #preparo-lista > li {
     padding-bottom: 2px;
+    font-size: 13px;
 }
 
 #preparo-lista {
@@ -70,6 +72,7 @@
     display: flex;
     justify-content: center;
     padding: 5px 20px;
+    font-size: 13px;
 }
 
 #direitos > a, a:hover, a:active, a:link, a:visited {
