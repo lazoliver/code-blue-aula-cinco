@@ -5,6 +5,10 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+#header {
+    padding-left: 25px;
+}
+
 #header-logo, #receita, #receita-img {
     padding: 10px 20px;
 }
@@ -47,7 +51,7 @@
 #instrucoes {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 10px 25px;
+    padding: 10px 35px;
 }
 
 #ingredientes, #ingredientes-lista, #preparo, #preparo-lista {
@@ -68,14 +72,15 @@
     list-style-position: inside;
 }
 
-#direitos {
-    display: flex;
+#footer {
+    display: grid;
     justify-content: center;
+    justify-items: center;
     padding: 5px 20px;
     font-size: 13px;
 }
 
-#direitos > a, a:hover, a:active, a:link, a:visited {
+a, a:hover, a:active, a:link, a:visited {
     text-decoration: none;
     color: rgb(255, 51, 0);
 }
