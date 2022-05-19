@@ -76,8 +76,12 @@
     display: grid;
     justify-content: center;
     justify-items: center;
-    padding: 5px 20px;
+    padding: 3px 20px;
     font-size: 13px;
+}
+
+#footer > p {
+    padding: 3px;
 }
 
 a, a:hover, a:active, a:link, a:visited {
